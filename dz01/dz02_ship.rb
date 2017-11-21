@@ -31,6 +31,3 @@ def ship.health(a,b)
 		end
 	end
 end
-
-fire = Object.new
-# объект выстрел
