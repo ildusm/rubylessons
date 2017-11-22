@@ -6,15 +6,16 @@ def ship.friend
 end
 def ship.size(a)
 	gets a
-	if a = 1
+	if a == 1
 		puts 'корабль одноклеточный'
-	else a = 2
+	elsif a == 2
 			puts 'корабль двухклеточный'
-	else a = 3
+	elsif a == 3
 			puts 'корабль трехклеточный'
-	else a = 4
-			puts 'корабль трехклеточный'
-	else a > 4
+	elsif a == 4
+			puts 'корабль четырехклеточный'
+	elsif
+	 	 	a > 4
 			puts 'неправильный параметр, введите заново'
 	end
 end
