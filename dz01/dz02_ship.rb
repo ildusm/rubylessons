@@ -22,12 +22,12 @@ end
 def ship.health(a,b)
 	# a количество клеток корабля
 	# b количество подбитых клеток корабля
-	if b=0
+	if b == 0
 		puts 'корабль целый'
-	else if b<a
+	elsif b < a
 		puts 'корабль ранен'
 		end
-	else if b=a
+	elsif b == a
 		puts 'корабль убит'
 		end
 	end
