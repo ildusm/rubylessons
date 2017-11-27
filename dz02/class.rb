@@ -2,7 +2,7 @@ class Coord
 	attr_accessor :x, :y
 	#определяем длину корабля
 	attr_reader :length
-	def length = (length)
+	def length=(length)
 		if (length > 4)||(length < 0)
 			puts 'Длина корабля равняа значениям от 1 до 4'
 		else
@@ -11,7 +11,7 @@ class Coord
 	end
 	attr_reader :name
 	#определяем имя корабля. для каждого названия добавим число, соотвоетствующее длине корабля
-	def name = (name)
+	def name=(name)
 		i = 1
 		n = 5
 		while i < n 
