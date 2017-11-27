@@ -14,8 +14,7 @@ def ship.size(a)
 			puts 'корабль трехклеточный'
 	elsif a == 4
 			puts 'корабль четырехклеточный'
-	elsif
-	 	 	a > 4
+	elsif a > 4
 			puts 'неправильный параметр, введите заново'
 	end
 end
